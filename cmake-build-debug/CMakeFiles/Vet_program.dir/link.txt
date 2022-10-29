@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/Vet_program.dir/main.cpp.o CMakeFiles/Vet_program.dir/Animal.cpp.o CMakeFiles/Vet_program.dir/Dog.cpp.o CMakeFiles/Vet_program.dir/Cat.cpp.o -o Vet_program 
+/usr/bin/c++ -g CMakeFiles/Vet_program.dir/main.cpp.o CMakeFiles/Vet_program.dir/Animal.cpp.o CMakeFiles/Vet_program.dir/Dog.cpp.o CMakeFiles/Vet_program.dir/Cat.cpp.o CMakeFiles/Vet_program.dir/Cow.cpp.o -o Vet_program 

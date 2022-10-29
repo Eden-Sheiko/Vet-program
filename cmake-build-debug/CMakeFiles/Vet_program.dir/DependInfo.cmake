@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/mnt/c/Users/Eden/CLionProjects/Vet program/Animal.cpp" "CMakeFiles/Vet_program.dir/Animal.cpp.o" "gcc" "CMakeFiles/Vet_program.dir/Animal.cpp.o.d"
   "/mnt/c/Users/Eden/CLionProjects/Vet program/Cat.cpp" "CMakeFiles/Vet_program.dir/Cat.cpp.o" "gcc" "CMakeFiles/Vet_program.dir/Cat.cpp.o.d"
+  "/mnt/c/Users/Eden/CLionProjects/Vet program/Cow.cpp" "CMakeFiles/Vet_program.dir/Cow.cpp.o" "gcc" "CMakeFiles/Vet_program.dir/Cow.cpp.o.d"
   "/mnt/c/Users/Eden/CLionProjects/Vet program/Dog.cpp" "CMakeFiles/Vet_program.dir/Dog.cpp.o" "gcc" "CMakeFiles/Vet_program.dir/Dog.cpp.o.d"
   "/mnt/c/Users/Eden/CLionProjects/Vet program/main.cpp" "CMakeFiles/Vet_program.dir/main.cpp.o" "gcc" "CMakeFiles/Vet_program.dir/main.cpp.o.d"
   )

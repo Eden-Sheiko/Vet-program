@@ -177,6 +177,30 @@ Cat.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet_program.dir/build.make CMakeFiles/Vet_program.dir/Cat.cpp.s
 .PHONY : Cat.cpp.s
 
+Cow.o: Cow.cpp.o
+.PHONY : Cow.o
+
+# target to build an object file
+Cow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet_program.dir/build.make CMakeFiles/Vet_program.dir/Cow.cpp.o
+.PHONY : Cow.cpp.o
+
+Cow.i: Cow.cpp.i
+.PHONY : Cow.i
+
+# target to preprocess a source file
+Cow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet_program.dir/build.make CMakeFiles/Vet_program.dir/Cow.cpp.i
+.PHONY : Cow.cpp.i
+
+Cow.s: Cow.cpp.s
+.PHONY : Cow.s
+
+# target to generate assembly for a file
+Cow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet_program.dir/build.make CMakeFiles/Vet_program.dir/Cow.cpp.s
+.PHONY : Cow.cpp.s
+
 Dog.o: Dog.cpp.o
 .PHONY : Dog.o
 
@@ -240,6 +264,9 @@ help:
 	@echo "... Cat.o"
 	@echo "... Cat.i"
 	@echo "... Cat.s"
+	@echo "... Cow.o"
+	@echo "... Cow.i"
+	@echo "... Cow.s"
 	@echo "... Dog.o"
 	@echo "... Dog.i"
 	@echo "... Dog.s"

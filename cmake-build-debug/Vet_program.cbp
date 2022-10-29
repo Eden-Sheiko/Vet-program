@@ -91,7 +91,13 @@
 		<Unit filename="/mnt/c/Users/Eden/CLionProjects/Vet program/Cat.cpp">
 			<Option target="Vet_program"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/Eden/CLionProjects/Vet program/Cat.h">
+		<Unit filename="/mnt/c/Users/Eden/CLionProjects/Vet program/Cat.hpp">
+			<Option target="Vet_program"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Eden/CLionProjects/Vet program/Cow.cpp">
+			<Option target="Vet_program"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Eden/CLionProjects/Vet program/Cow.hpp">
 			<Option target="Vet_program"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/Eden/CLionProjects/Vet program/Dog.cpp">
