@@ -153,6 +153,30 @@ Animal.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet_program.dir/build.make CMakeFiles/Vet_program.dir/Animal.cpp.s
 .PHONY : Animal.cpp.s
 
+Cat.o: Cat.cpp.o
+.PHONY : Cat.o
+
+# target to build an object file
+Cat.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet_program.dir/build.make CMakeFiles/Vet_program.dir/Cat.cpp.o
+.PHONY : Cat.cpp.o
+
+Cat.i: Cat.cpp.i
+.PHONY : Cat.i
+
+# target to preprocess a source file
+Cat.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet_program.dir/build.make CMakeFiles/Vet_program.dir/Cat.cpp.i
+.PHONY : Cat.cpp.i
+
+Cat.s: Cat.cpp.s
+.PHONY : Cat.s
+
+# target to generate assembly for a file
+Cat.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet_program.dir/build.make CMakeFiles/Vet_program.dir/Cat.cpp.s
+.PHONY : Cat.cpp.s
+
 Dog.o: Dog.cpp.o
 .PHONY : Dog.o
 
@@ -213,6 +237,9 @@ help:
 	@echo "... Animal.o"
 	@echo "... Animal.i"
 	@echo "... Animal.s"
+	@echo "... Cat.o"
+	@echo "... Cat.i"
+	@echo "... Cat.s"
 	@echo "... Dog.o"
 	@echo "... Dog.i"
 	@echo "... Dog.s"
