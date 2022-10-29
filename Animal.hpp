@@ -5,7 +5,7 @@
 #ifndef VET_PROGRAM_ANIMAL_HPP
 #define VET_PROGRAM_ANIMAL_HPP
 #include <string>
-
+//todo: animal is inside vet
 class Animal {
 public:
     Animal(std::string name, double temp, double breath, double heart)
