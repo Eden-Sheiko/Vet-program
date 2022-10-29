@@ -1,0 +1,3 @@
+/mnt/c/Users/Eden/CLionProjects/Vet program/cmake-build-debug/CMakeFiles/Vet_program.dir
+/mnt/c/Users/Eden/CLionProjects/Vet program/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Eden/CLionProjects/Vet program/cmake-build-debug/CMakeFiles/rebuild_cache.dir
