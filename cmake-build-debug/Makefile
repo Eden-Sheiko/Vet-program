@@ -129,6 +129,54 @@ Vet_program/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet_program.dir/build.make CMakeFiles/Vet_program.dir/build
 .PHONY : Vet_program/fast
 
+Animal.o: Animal.cpp.o
+.PHONY : Animal.o
+
+# target to build an object file
+Animal.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet_program.dir/build.make CMakeFiles/Vet_program.dir/Animal.cpp.o
+.PHONY : Animal.cpp.o
+
+Animal.i: Animal.cpp.i
+.PHONY : Animal.i
+
+# target to preprocess a source file
+Animal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet_program.dir/build.make CMakeFiles/Vet_program.dir/Animal.cpp.i
+.PHONY : Animal.cpp.i
+
+Animal.s: Animal.cpp.s
+.PHONY : Animal.s
+
+# target to generate assembly for a file
+Animal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet_program.dir/build.make CMakeFiles/Vet_program.dir/Animal.cpp.s
+.PHONY : Animal.cpp.s
+
+Dog.o: Dog.cpp.o
+.PHONY : Dog.o
+
+# target to build an object file
+Dog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet_program.dir/build.make CMakeFiles/Vet_program.dir/Dog.cpp.o
+.PHONY : Dog.cpp.o
+
+Dog.i: Dog.cpp.i
+.PHONY : Dog.i
+
+# target to preprocess a source file
+Dog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet_program.dir/build.make CMakeFiles/Vet_program.dir/Dog.cpp.i
+.PHONY : Dog.cpp.i
+
+Dog.s: Dog.cpp.s
+.PHONY : Dog.s
+
+# target to generate assembly for a file
+Dog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet_program.dir/build.make CMakeFiles/Vet_program.dir/Dog.cpp.s
+.PHONY : Dog.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -162,6 +210,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Vet_program"
+	@echo "... Animal.o"
+	@echo "... Animal.i"
+	@echo "... Animal.s"
+	@echo "... Dog.o"
+	@echo "... Dog.i"
+	@echo "... Dog.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
