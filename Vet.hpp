@@ -13,10 +13,15 @@ public:
     void add_animal(Animal * &&);
     void show_sick();
     void show_sick_dogs();
-    Vet &get_instance();
+    static Vet &get_instance();
+
+    Vet(const Vet&) = delete;
+    Vet(Vet&&) = delete;
+    Vet& operator=(Vet &&) = delete;
+    Vet& operator=(Vet const&) = delete;
 private:
     std::vector< std::unique_ptr<Animal> > animals;
-
+    Vet() = default;
 };
 
 
