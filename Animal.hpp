@@ -5,14 +5,12 @@
 #ifndef VET_PROGRAM_ANIMAL_HPP
 #define VET_PROGRAM_ANIMAL_HPP
 #include <string>
-//todo: animal is inside vet
 class Animal {
 public:
     Animal(std::string name, double temp, double breath, double heart)
         :m_name{name},m_temp{temp},m_breath{breath},m_heart{heart}
         {}
-
-
+    virtual ~Animal() = default; //todo: check this
     std::string m_name {};
     double m_temp {};
     double m_breath {};

@@ -10,7 +10,7 @@ public:
     Cat(std::string name, double temp, double breath, double heart)
         : Animal{name,temp,breath,heart}
     {}
-    bool check_health();
+    bool check_health() override;
 
 };
 

@@ -106,6 +106,12 @@
 		<Unit filename="/mnt/c/Users/Eden/CLionProjects/Vet program/Dog.hpp">
 			<Option target="Vet_program"/>
 		</Unit>
+		<Unit filename="/mnt/c/Users/Eden/CLionProjects/Vet program/Vet.cpp">
+			<Option target="Vet_program"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Eden/CLionProjects/Vet program/Vet.hpp">
+			<Option target="Vet_program"/>
+		</Unit>
 		<Unit filename="/mnt/c/Users/Eden/CLionProjects/Vet program/main.cpp">
 			<Option target="Vet_program"/>
 		</Unit>

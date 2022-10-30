@@ -12,7 +12,7 @@ public:
         : Animal{name,temp,breath,heart} , m_is_large{is_large}
     {}
     bool m_is_large {};
-    bool check_health();
+    bool check_health() override;
 };
 
 

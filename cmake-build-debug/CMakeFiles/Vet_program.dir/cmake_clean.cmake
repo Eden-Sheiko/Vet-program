@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Vet_program.dir/Cow.cpp.o.d"
   "CMakeFiles/Vet_program.dir/Dog.cpp.o"
   "CMakeFiles/Vet_program.dir/Dog.cpp.o.d"
+  "CMakeFiles/Vet_program.dir/Vet.cpp.o"
+  "CMakeFiles/Vet_program.dir/Vet.cpp.o.d"
   "CMakeFiles/Vet_program.dir/main.cpp.o"
   "CMakeFiles/Vet_program.dir/main.cpp.o.d"
   "Vet_program"

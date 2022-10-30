@@ -13,7 +13,7 @@ public:
     {}
 
     double m_milk {};
-    bool check_health();
+    bool check_health() override;
 
 };
 
