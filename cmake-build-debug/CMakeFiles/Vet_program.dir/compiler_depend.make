@@ -797,7 +797,30 @@ CMakeFiles/Vet_program.dir/Vet.cpp.o: /mnt/c/Users/Eden/CLionProjects/Vet\ progr
   /usr/include/c++/9/bits/atomic_lockfree_defines.h \
   /usr/include/c++/9/backward/auto_ptr.h \
   /usr/include/c++/9/pstl/glue_memory_defs.h \
-  /usr/include/c++/9/pstl/execution_defs.h
+  /usr/include/c++/9/pstl/execution_defs.h \
+  /usr/include/c++/9/iostream \
+  /usr/include/c++/9/ostream \
+  /usr/include/c++/9/ios \
+  /usr/include/c++/9/bits/ios_base.h \
+  /usr/include/c++/9/bits/locale_classes.h \
+  /usr/include/c++/9/bits/locale_classes.tcc \
+  /usr/include/c++/9/system_error \
+  /usr/include/x86_64-linux-gnu/c++/9/bits/error_constants.h \
+  /usr/include/c++/9/streambuf \
+  /usr/include/c++/9/bits/streambuf.tcc \
+  /usr/include/c++/9/bits/basic_ios.h \
+  /usr/include/c++/9/bits/locale_facets.h \
+  /usr/include/c++/9/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/x86_64-linux-gnu/c++/9/bits/ctype_base.h \
+  /usr/include/c++/9/bits/streambuf_iterator.h \
+  /usr/include/x86_64-linux-gnu/c++/9/bits/ctype_inline.h \
+  /usr/include/c++/9/bits/locale_facets.tcc \
+  /usr/include/c++/9/bits/basic_ios.tcc \
+  /usr/include/c++/9/bits/ostream.tcc \
+  /usr/include/c++/9/istream \
+  /usr/include/c++/9/bits/istream.tcc
 
 CMakeFiles/Vet_program.dir/main.cpp.o: /mnt/c/Users/Eden/CLionProjects/Vet\ program/main.cpp \
   /usr/include/stdc-predef.h \
@@ -974,7 +997,39 @@ CMakeFiles/Vet_program.dir/main.cpp.o: /mnt/c/Users/Eden/CLionProjects/Vet\ prog
   /usr/include/c++/9/bits/ostream.tcc \
   /usr/include/c++/9/istream \
   /usr/include/c++/9/bits/istream.tcc \
-  /mnt/c/Users/Eden/CLionProjects/Vet\ program/Animal.hpp
+  /mnt/c/Users/Eden/CLionProjects/Vet\ program/Animal.hpp \
+  /mnt/c/Users/Eden/CLionProjects/Vet\ program/Dog.hpp \
+  /mnt/c/Users/Eden/CLionProjects/Vet\ program/Cat.hpp \
+  /mnt/c/Users/Eden/CLionProjects/Vet\ program/Cow.hpp \
+  /mnt/c/Users/Eden/CLionProjects/Vet\ program/Vet.hpp \
+  /usr/include/c++/9/vector \
+  /usr/include/c++/9/bits/stl_construct.h \
+  /usr/include/c++/9/bits/stl_uninitialized.h \
+  /usr/include/c++/9/utility \
+  /usr/include/c++/9/bits/stl_relops.h \
+  /usr/include/c++/9/bits/stl_vector.h \
+  /usr/include/c++/9/bits/stl_bvector.h \
+  /usr/include/c++/9/bits/vector.tcc \
+  /usr/include/c++/9/memory \
+  /usr/include/c++/9/bits/stl_tempbuf.h \
+  /usr/include/c++/9/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/9/ext/concurrence.h \
+  /usr/include/c++/9/bits/uses_allocator.h \
+  /usr/include/c++/9/bits/unique_ptr.h \
+  /usr/include/c++/9/tuple \
+  /usr/include/c++/9/array \
+  /usr/include/c++/9/bits/invoke.h \
+  /usr/include/c++/9/bits/shared_ptr.h \
+  /usr/include/c++/9/bits/shared_ptr_base.h \
+  /usr/include/c++/9/bits/allocated_ptr.h \
+  /usr/include/c++/9/bits/refwrap.h \
+  /usr/include/c++/9/ext/aligned_buffer.h \
+  /usr/include/c++/9/bits/shared_ptr_atomic.h \
+  /usr/include/c++/9/bits/atomic_base.h \
+  /usr/include/c++/9/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/9/backward/auto_ptr.h \
+  /usr/include/c++/9/pstl/glue_memory_defs.h \
+  /usr/include/c++/9/pstl/execution_defs.h
 
 
 /usr/include/c++/9/istream:

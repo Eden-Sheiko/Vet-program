@@ -3,3 +3,6 @@
 //
 
 #include "Vet.hpp"
+
+Vet Vet::s_Instance;
+
