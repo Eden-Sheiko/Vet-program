@@ -8,6 +8,7 @@
 #include <vector>
 #include <memory>
 #include <iostream>
+#include "Dog.hpp"
 
 class Vet {
 public:
@@ -24,7 +25,9 @@ public:
 
     void show_sick_dogs() {
         for (auto & animal : m_animals) {
-            if (animal->)
+            if (dynamic_cast<Dog>(animal){ //bad
+
+            }
         }
     }
 
