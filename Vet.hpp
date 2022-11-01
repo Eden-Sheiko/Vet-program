@@ -18,7 +18,7 @@ public:
     void show_sick() {
         for (auto & animal : m_animals) {
             if (!animal->check_health()){
-                std::cout << "sick animal:" << animal->m_name << std::endl;
+                std::cout << "sick animal: " << animal->m_name << std::endl;
             }
         }
     }
@@ -28,12 +28,12 @@ public:
             try {
                 auto tmp = dynamic_cast<Dog&>(*animal);
                 if(!tmp.check_health()){
-                    std::cout << "sick dog:" << tmp.m_name << std::endl;
+                    std::cout << "sick dog: " << tmp.m_name << std::endl;
                 }
             }
 
             catch (...) {
-                std::cout << "not a dog:" << animal->m_name << std::endl;
+                std::cout << "not a dog: " << animal->m_name << std::endl;
             }
 
         }

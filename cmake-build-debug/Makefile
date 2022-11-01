@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/edens/CLionProjects/Vet-program
+CMAKE_SOURCE_DIR = "/mnt/c/Users/Eden/CLionProjects/Vet program"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/edens/CLionProjects/Vet-program/cmake-build-debug
+CMAKE_BINARY_DIR = "/mnt/c/Users/Eden/CLionProjects/Vet program/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/edens/CLionProjects/Vet-program/cmake-build-debug/CMakeFiles /mnt/c/Users/edens/CLionProjects/Vet-program/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/Eden/CLionProjects/Vet program/cmake-build-debug/CMakeFiles" "/mnt/c/Users/Eden/CLionProjects/Vet program/cmake-build-debug//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/edens/CLionProjects/Vet-program/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/Eden/CLionProjects/Vet program/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -225,6 +225,30 @@ Dog.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet_program.dir/build.make CMakeFiles/Vet_program.dir/Dog.cpp.s
 .PHONY : Dog.cpp.s
 
+Tests.o: Tests.cpp.o
+.PHONY : Tests.o
+
+# target to build an object file
+Tests.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet_program.dir/build.make CMakeFiles/Vet_program.dir/Tests.cpp.o
+.PHONY : Tests.cpp.o
+
+Tests.i: Tests.cpp.i
+.PHONY : Tests.i
+
+# target to preprocess a source file
+Tests.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet_program.dir/build.make CMakeFiles/Vet_program.dir/Tests.cpp.i
+.PHONY : Tests.cpp.i
+
+Tests.s: Tests.cpp.s
+.PHONY : Tests.s
+
+# target to generate assembly for a file
+Tests.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet_program.dir/build.make CMakeFiles/Vet_program.dir/Tests.cpp.s
+.PHONY : Tests.cpp.s
+
 Vet.o: Vet.cpp.o
 .PHONY : Vet.o
 
@@ -294,6 +318,9 @@ help:
 	@echo "... Dog.o"
 	@echo "... Dog.i"
 	@echo "... Dog.s"
+	@echo "... Tests.o"
+	@echo "... Tests.i"
+	@echo "... Tests.s"
 	@echo "... Vet.o"
 	@echo "... Vet.i"
 	@echo "... Vet.s"
