@@ -7,6 +7,11 @@ static constexpr double MAX_BREATH = 40;
 static constexpr double MIN_HEART = 120;
 static constexpr double MAX_HEART = 140;
 
+/**
+ * \brief check health of the cat
+ *
+ * @return bool
+ */
 bool Cat::check_health() {
     return (m_temp >= MIN_TMP && m_temp <= MAX_TMP)
            && (m_breath >= MIN_BREATH && m_breath <= MAX_BREATH )

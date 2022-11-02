@@ -1,6 +1,4 @@
-//
-// Created by Eden on 01/11/2022.
-//
+
 #include "Tests.hpp"
 #include "Cat.hpp"
 #include "Cow.hpp"

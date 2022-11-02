@@ -1,11 +1,12 @@
-//
-// Created by Eden on 29/10/2022.
-//
 
 #ifndef VET_PROGRAM_ANIMAL_HPP
 #define VET_PROGRAM_ANIMAL_HPP
 #include <string>
 #include <utility>
+#include <stdexcept>
+#include <iostream>
+static constexpr double ZERO = 0;
+
 /**
  * \class  Animal
  *
@@ -14,15 +15,27 @@ class Animal {
 public:
     /**
      * \brief ctor that gets 4 params
+     *
+     * deals with zero case params less then zero
+     * deals with null/empty name
+     *
      * @param std::string name
      * @param double temp
      * @param double breath
      * @param double heart
      */
-     //todo: set vlaue
-    Animal(std::string name, double temp, double breath, double heart)
-        :m_name{std::move(name)},m_temp{temp},m_breath{breath},m_heart{heart}
-        {}
+    Animal(std::string  name, double temp, double breath, double heart)
+        try :m_name{std::move(name)},m_temp{temp},m_breath{breath},m_heart{heart}{
+            if(m_name.empty()){
+                throw std::invalid_argument("An animal cannot be without a name");
+            }
+            if(m_temp < ZERO || m_breath < ZERO || m_heart < ZERO){
+                throw std::invalid_argument("An animal cannot with less then zero value");
+            }
+        }
+     catch (...) {
+
+     }
         /**
          *  \brief virtual dtor inorder to
          *  destroy objects that  inherits from animals
@@ -32,11 +45,13 @@ public:
     double m_temp {};
     double m_breath {};
     double m_heart {};
+
     /**
      * \brief check_health() Pure Virtual Function
      * @return bool
      */
     virtual bool check_health() = 0;
+    void set_name(std::string name){m_name=std::move(name);}
 };
 
 

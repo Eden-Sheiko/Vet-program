@@ -9,6 +9,12 @@ static constexpr double MAX_HEART_SMALL = 140;
 static constexpr double MIN_HEART_LARGE = 60;
 static constexpr double MAX_HEART_LARGE = 100;
 
+/**
+ * \brief check_health of the dog
+ *
+ *
+ * @return bool
+ */
 bool Dog::check_health()
 {
     if (m_is_large)

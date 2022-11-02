@@ -1,6 +1,3 @@
-//
-// Created by Eden on 30/10/2022.
-//
 
 #ifndef VET_PROGRAM_VET_HPP
 #define VET_PROGRAM_VET_HPP
@@ -10,11 +7,27 @@
 #include <iostream>
 #include "Dog.hpp"
 
+
+/**
+ * \class vet
+ */
 class Vet {
 public:
+    /**
+     * \brief add animal obj to the vector via emplace_back func
+     *
+     * @param ref
+     *
+     * @see vector
+     * @see emplace_back
+     */
     void add_animal(Animal * &&ref) {
         m_animals.emplace_back(ref);
     }
+    /**
+     * \brief prints all the sick animals in the vector
+     *
+     */
     void show_sick() {
         for (auto & animal : m_animals) {
             if (!animal->check_health()){
@@ -22,7 +35,11 @@ public:
             }
         }
     }
-
+    /**
+     * \brief prints all the sick dogs in the vector
+     * uses dynamic_cast
+     * has try block that determines if the animal is a dog or not
+     */
     void show_sick_dogs() {
         for (auto & animal : m_animals) {
             try {
@@ -37,11 +54,19 @@ public:
             }
         }
     }
-
-    static Vet &get_instance() { //todo: to return instance of the class
+    /**
+     *
+     * \brief return the s_Instance of the class
+     */
+    static Vet &get_instance() {
         return s_Instance;
     }
-
+    /**
+     *  removed cpy ctor
+     *  removed cpy assignment
+     *  removed move ctor
+     *  removed move assignment
+     */
     Vet(const Vet&) = delete;
     Vet(Vet&&) = delete;
     Vet& operator=(Vet &&) = delete;
@@ -51,8 +76,4 @@ private:
     std::vector< std::unique_ptr<Animal> > m_animals;
     static Vet s_Instance;
 };
-
-// way one to define static private function
-// to init it in cpp file or below class
-// and return the instance
 #endif //VET_PROGRAM_VET_HPP

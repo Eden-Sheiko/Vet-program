@@ -1,0 +1,132 @@
+\hypertarget{class_animal}{}\doxysection{Animal Class Reference}
+\label{class_animal}\index{Animal@{Animal}}
+
+
+{\ttfamily \#include $<$Animal.\+hpp$>$}
+
+
+
+Inheritance diagram for Animal\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=224pt]{class_animal__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_animal_a3805eff4f39b03dcdad7c7e3b2a0bff2}{Animal}} (std\+::string name, double temp, double breath, double heart)
+\begin{DoxyCompactList}\small\item\em ctor that gets 4 params \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{class_animal_aa4619e5ee3b21b485f716fe985c4537f}{$\sim$\+Animal}} ()=default
+\begin{DoxyCompactList}\small\item\em virtual dtor inorder to destroy objects that inherits from animals \end{DoxyCompactList}\item 
+virtual bool \mbox{\hyperlink{class_animal_ab0988d4c5d644a37aa17fa09589e597f}{check\+\_\+health}} ()=0
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_animal_ab0988d4c5d644a37aa17fa09589e597f}{check\+\_\+health()}} Pure Virtual Function \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_animal_ac0b5bae7c16c6c31d2a7d8b6429188c6}{set\+\_\+name}} (std\+::string name)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \mbox{\hyperlink{class_animal_a274e6d8f54cccdfb0b77aa7afa370856}{m\+\_\+name}} \{\}
+\item 
+double \mbox{\hyperlink{class_animal_a140b778af73bd89905e9ce8f1815e3eb}{m\+\_\+temp}} \{\}
+\item 
+double \mbox{\hyperlink{class_animal_a28d2ec73013445baf2e876e9dff126ab}{m\+\_\+breath}} \{\}
+\item 
+double \mbox{\hyperlink{class_animal_ac934f62ae7d19f4b519dbb7f29620f1a}{m\+\_\+heart}} \{\}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_animal_a3805eff4f39b03dcdad7c7e3b2a0bff2}\label{class_animal_a3805eff4f39b03dcdad7c7e3b2a0bff2}} 
+\index{Animal@{Animal}!Animal@{Animal}}
+\index{Animal@{Animal}!Animal@{Animal}}
+\doxysubsubsection{\texorpdfstring{Animal()}{Animal()}}
+{\footnotesize\ttfamily Animal\+::\+Animal (\begin{DoxyParamCaption}\item[{std\+::string}]{name,  }\item[{double}]{temp,  }\item[{double}]{breath,  }\item[{double}]{heart }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+ctor that gets 4 params 
+
+deals with zero case params less then zero deals with null/empty name
+
+
+\begin{DoxyParams}{Parameters}
+{\em std\+::string} & name \\
+\hline
+{\em double} & temp \\
+\hline
+{\em double} & breath \\
+\hline
+{\em double} & heart \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_animal_aa4619e5ee3b21b485f716fe985c4537f}\label{class_animal_aa4619e5ee3b21b485f716fe985c4537f}} 
+\index{Animal@{Animal}!````~Animal@{$\sim$Animal}}
+\index{````~Animal@{$\sim$Animal}!Animal@{Animal}}
+\doxysubsubsection{\texorpdfstring{$\sim$Animal()}{~Animal()}}
+{\footnotesize\ttfamily virtual Animal\+::$\sim$\+Animal (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}, {\ttfamily [default]}}
+
+
+
+virtual dtor inorder to destroy objects that inherits from animals 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_animal_ab0988d4c5d644a37aa17fa09589e597f}\label{class_animal_ab0988d4c5d644a37aa17fa09589e597f}} 
+\index{Animal@{Animal}!check\_health@{check\_health}}
+\index{check\_health@{check\_health}!Animal@{Animal}}
+\doxysubsubsection{\texorpdfstring{check\_health()}{check\_health()}}
+{\footnotesize\ttfamily virtual bool Animal\+::check\+\_\+health (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+\mbox{\hyperlink{class_animal_ab0988d4c5d644a37aa17fa09589e597f}{check\+\_\+health()}} Pure Virtual Function 
+
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_dog_aa3815447a847132ff334493139605b30}{Dog}}, \mbox{\hyperlink{class_cow_ae43c56e8d6360cb8bc041af19836848b}{Cow}}, and \mbox{\hyperlink{class_cat_a68472135359f17072ebe9c9e72f89951}{Cat}}.
+
+\mbox{\Hypertarget{class_animal_ac0b5bae7c16c6c31d2a7d8b6429188c6}\label{class_animal_ac0b5bae7c16c6c31d2a7d8b6429188c6}} 
+\index{Animal@{Animal}!set\_name@{set\_name}}
+\index{set\_name@{set\_name}!Animal@{Animal}}
+\doxysubsubsection{\texorpdfstring{set\_name()}{set\_name()}}
+{\footnotesize\ttfamily void Animal\+::set\+\_\+name (\begin{DoxyParamCaption}\item[{std\+::string}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_animal_a28d2ec73013445baf2e876e9dff126ab}\label{class_animal_a28d2ec73013445baf2e876e9dff126ab}} 
+\index{Animal@{Animal}!m\_breath@{m\_breath}}
+\index{m\_breath@{m\_breath}!Animal@{Animal}}
+\doxysubsubsection{\texorpdfstring{m\_breath}{m\_breath}}
+{\footnotesize\ttfamily double Animal\+::m\+\_\+breath \{\}}
+
+\mbox{\Hypertarget{class_animal_ac934f62ae7d19f4b519dbb7f29620f1a}\label{class_animal_ac934f62ae7d19f4b519dbb7f29620f1a}} 
+\index{Animal@{Animal}!m\_heart@{m\_heart}}
+\index{m\_heart@{m\_heart}!Animal@{Animal}}
+\doxysubsubsection{\texorpdfstring{m\_heart}{m\_heart}}
+{\footnotesize\ttfamily double Animal\+::m\+\_\+heart \{\}}
+
+\mbox{\Hypertarget{class_animal_a274e6d8f54cccdfb0b77aa7afa370856}\label{class_animal_a274e6d8f54cccdfb0b77aa7afa370856}} 
+\index{Animal@{Animal}!m\_name@{m\_name}}
+\index{m\_name@{m\_name}!Animal@{Animal}}
+\doxysubsubsection{\texorpdfstring{m\_name}{m\_name}}
+{\footnotesize\ttfamily std\+::string Animal\+::m\+\_\+name \{\}}
+
+\mbox{\Hypertarget{class_animal_a140b778af73bd89905e9ce8f1815e3eb}\label{class_animal_a140b778af73bd89905e9ce8f1815e3eb}} 
+\index{Animal@{Animal}!m\_temp@{m\_temp}}
+\index{m\_temp@{m\_temp}!Animal@{Animal}}
+\doxysubsubsection{\texorpdfstring{m\_temp}{m\_temp}}
+{\footnotesize\ttfamily double Animal\+::m\+\_\+temp \{\}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_animal_8hpp}{Animal.\+hpp}}\end{DoxyCompactItemize}

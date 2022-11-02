@@ -1,8 +1,9 @@
-//
-// Created by Eden on 30/10/2022.
-//
 
 #include "Vet.hpp"
 
+
+/**
+ * \brief Instance of Vet Class
+ */
 Vet Vet::s_Instance;
 

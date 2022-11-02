@@ -1,12 +1,16 @@
-//
-// Created by Eden on 29/10/2022.
-//
-
 #ifndef VET_PROGRAM_DOG_HPP
 #define VET_PROGRAM_DOG_HPP
 #include <utility>
 
 #include "Animal.hpp"
+
+/**
+ * \class Dog \inherit Animal
+ * the class uses Animal ctor @see Animal
+ * and adds m_is_large data member
+ *
+ *
+ */
 
 class Dog : public Animal{
 public:
@@ -14,6 +18,11 @@ public:
         : Animal{std::move(name),temp,breath,heart} , m_is_large{is_large}
     {}
     bool m_is_large {};
+    /**
+     * @overload check_health()
+     *
+     * @return bool
+     */
     bool check_health() override;
 };
 
