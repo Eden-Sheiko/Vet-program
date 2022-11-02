@@ -1,12 +1,16 @@
-//
-// Created by Eden on 29/10/2022.
-//
-
 #include "Cow.hpp"
 
+static constexpr double MIN_TMP = 38.5;
+static constexpr double MAX_TMP = 39.5;
+static constexpr double MIN_BREATH = 26;
+static constexpr double MAX_BREATH = 50;
+static constexpr double MIN_HEART = 48;
+static constexpr double MAX_HEART = 84;
+static constexpr double MIN_MILK = 30;
+
 bool Cow::check_health() {
-    return (m_temp >= 38.5 && m_temp <= 39.5)
-           && (m_breath >= 26 && m_breath <= 50 )
-           && (m_heart >= 48 && m_heart <= 84)
-           && (m_milk >= 30);
+    return (m_temp >= MIN_TMP && m_temp <= MAX_TMP)
+           && (m_breath >= MIN_BREATH && m_breath <= MAX_BREATH )
+           && (m_heart >= MIN_HEART && m_heart <= MAX_HEART)
+           && (m_milk >= MIN_MILK);
 }

@@ -19,6 +19,7 @@ public:
      * @param double breath
      * @param double heart
      */
+     //todo: set vlaue
     Animal(std::string name, double temp, double breath, double heart)
         :m_name{std::move(name)},m_temp{temp},m_breath{breath},m_heart{heart}
         {}

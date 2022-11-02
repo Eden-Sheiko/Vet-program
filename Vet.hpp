@@ -35,7 +35,6 @@ public:
             catch (...) {
                 std::cout << "not a dog: " << animal->m_name << std::endl;
             }
-
         }
     }
 
