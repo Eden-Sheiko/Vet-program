@@ -13,8 +13,14 @@
 class Cow : public Animal{
 public:
     Cow(std::string name, double temp, double breath, double heart, double liters)
-        : Animal{std::move(name),temp,breath,heart} , m_milk{liters}
-    {}
+       try : Animal{std::move(name),temp,breath,heart} , m_milk{liters}{
+        if(m_milk < ZERO){
+            throw std::invalid_argument("cow cannot produce negative amount of milk");
+        }
+       }
+    catch (...) {
+
+    }
 
     double m_milk {};
     /**
