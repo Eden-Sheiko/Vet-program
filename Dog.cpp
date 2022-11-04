@@ -15,18 +15,14 @@ static constexpr double MAX_HEART_LARGE = 100;
  *
  * @return bool
  */
-bool Dog::check_health()
-{
-    if (m_is_large)
-    {
+bool Dog::check_health() {
+    if (m_is_large) {
         return (m_temp >= MIN_TMP && m_temp <= MAX_TMP)
-               && (m_breath >= MIN_BREATH && m_breath <= MAX_BREATH )
+               && (m_breath >= MIN_BREATH && m_breath <= MAX_BREATH)
                && (m_heart >= MIN_HEART_LARGE && m_heart <= MAX_HEART_LARGE);
-    }
-    else
-    {
+    } else {
         return (m_temp >= MIN_TMP && m_temp <= MAX_TMP)
-               && (m_breath >= MIN_BREATH && m_breath <= MAX_BREATH )
+               && (m_breath >= MIN_BREATH && m_breath <= MAX_BREATH)
                && (m_heart >= MIN_HEART_SMALL && m_heart <= MAX_HEART_SMALL);
     }
 }

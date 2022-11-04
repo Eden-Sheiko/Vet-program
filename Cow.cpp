@@ -16,7 +16,7 @@ static constexpr double MIN_MILK = 30;
 
 bool Cow::check_health() {
     return (m_temp >= MIN_TMP && m_temp <= MAX_TMP)
-           && (m_breath >= MIN_BREATH && m_breath <= MAX_BREATH )
+           && (m_breath >= MIN_BREATH && m_breath <= MAX_BREATH)
            && (m_heart >= MIN_HEART && m_heart <= MAX_HEART)
            && (m_milk >= MIN_MILK);
 }

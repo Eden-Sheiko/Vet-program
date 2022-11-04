@@ -14,6 +14,6 @@ static constexpr double MAX_HEART = 140;
  */
 bool Cat::check_health() {
     return (m_temp >= MIN_TMP && m_temp <= MAX_TMP)
-           && (m_breath >= MIN_BREATH && m_breath <= MAX_BREATH )
+           && (m_breath >= MIN_BREATH && m_breath <= MAX_BREATH)
            && (m_heart >= MIN_HEART && m_heart <= MAX_HEART);
 }

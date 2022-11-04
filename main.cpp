@@ -1,4 +1,5 @@
 #include "Tests.hpp"
+
 int main() {
     tests();
     testVetClass();

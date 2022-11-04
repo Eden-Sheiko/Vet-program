@@ -1,10 +1,12 @@
 
 #ifndef VET_PROGRAM_ANIMAL_HPP
 #define VET_PROGRAM_ANIMAL_HPP
+
 #include <string>
 #include <utility>
 #include <stdexcept>
 #include <iostream>
+
 static constexpr double ZERO = 0;
 
 /**
@@ -24,34 +26,37 @@ public:
      * @param double breath
      * @param double heart
      */
-    Animal(std::string  name, double temp, double breath, double heart)
-        try :m_name{std::move(name)},m_temp{temp},m_breath{breath},m_heart{heart}{
-            if(m_name.empty()){
-                throw std::invalid_argument("An animal cannot be without a name");
-            }
-            if(m_temp < ZERO || m_breath < ZERO || m_heart < ZERO){
-                throw std::invalid_argument("An animal cannot with less then zero value");
-            }
+    Animal(std::string name, double temp, double breath, double heart)
+    try: m_name{std::move(name)}, m_temp{temp}, m_breath{breath}, m_heart{heart} {
+        if (m_name.empty()) {
+            throw std::invalid_argument("An animal cannot be without a name");
         }
-     catch (...) {
+        if (m_temp < ZERO || m_breath < ZERO || m_heart < ZERO) {
+            throw std::invalid_argument("An animal cannot with less then zero value");
+        }
+    }
+    catch (...) {
 
-     }
-        /**
-         *  \brief virtual dtor inorder to
-         *  destroy objects that  inherits from animals
-         */
+    }
+
+    /**
+     *  \brief virtual dtor inorder to
+     *  destroy objects that  inherits from animals
+     */
     virtual ~Animal() = default;
-    std::string m_name {};
-    double m_temp {};
-    double m_breath {};
-    double m_heart {};
+
+    std::string m_name{};
+    double m_temp{};
+    double m_breath{};
+    double m_heart{};
 
     /**
      * \brief check_health() Pure Virtual Function
      * @return bool
      */
     virtual bool check_health() = 0;
-    void set_name(std::string name){m_name=std::move(name);}
+
+    void set_name(std::string name) { m_name = std::move(name); }
 };
 
 

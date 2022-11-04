@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Vet program: Dog.hpp Source File</title>
+<title>VET_PROGRAM: Dog.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,8 +21,8 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Vet program
-   &#160;<span id="projectnumber">1</span>
+   <div id="projectname">VET_PROGRAM
+   &#160;<span id="projectnumber">1.1</span>
    </div>
   </td>
  </tr>
@@ -68,32 +68,34 @@ $(function() {
 <div class="contents">
 <a href="_dog_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef VET_PROGRAM_DOG_HPP</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define VET_PROGRAM_DOG_HPP</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;utility&gt;</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160; </div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_animal_8hpp.html">Animal.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
-<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="class_dog.html">   15</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_dog.html">Dog</a> : <span class="keyword">public</span> <a class="code" href="class_animal.html">Animal</a>{</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="class_dog.html#a3f9c20612c25d8e204e1a9422d93f0df">   17</a></span>&#160;    <a class="code" href="class_dog.html#a3f9c20612c25d8e204e1a9422d93f0df">Dog</a>(std::string name, <span class="keywordtype">double</span> temp, <span class="keywordtype">double</span> breath, <span class="keywordtype">double</span> heart, <span class="keywordtype">bool</span> is_large)</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        : <a class="code" href="class_animal.html">Animal</a>{std::move(name),temp,breath,heart} , <a class="code" href="class_dog.html#a13987aaf33a987c8a4cb82d166ec1e55">m_is_large</a>{is_large}</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    {}</div>
-<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="class_dog.html#a13987aaf33a987c8a4cb82d166ec1e55">   20</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_dog.html#a13987aaf33a987c8a4cb82d166ec1e55">m_is_large</a> {};</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_dog.html#aa3815447a847132ff334493139605b30">check_health</a>() <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;};</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#endif //VET_PROGRAM_DOG_HPP</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;utility&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_animal_8hpp.html">Animal.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="class_dog.html">   16</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_dog.html">Dog</a> : <span class="keyword">public</span> <a class="code" href="class_animal.html">Animal</a> {</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="class_dog.html#a3f9c20612c25d8e204e1a9422d93f0df">   18</a></span>&#160;    <a class="code" href="class_dog.html#a3f9c20612c25d8e204e1a9422d93f0df">Dog</a>(std::string name, <span class="keywordtype">double</span> temp, <span class="keywordtype">double</span> breath, <span class="keywordtype">double</span> heart, <span class="keywordtype">bool</span> is_large)</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;            : <a class="code" href="class_animal.html">Animal</a>{std::move(name), temp, breath, heart}, <a class="code" href="class_dog.html#a13987aaf33a987c8a4cb82d166ec1e55">m_is_large</a>{is_large} {}</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="class_dog.html#a13987aaf33a987c8a4cb82d166ec1e55">   21</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_dog.html#a13987aaf33a987c8a4cb82d166ec1e55">m_is_large</a>{};</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_dog.html#aa3815447a847132ff334493139605b30">check_health</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;};</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#endif //VET_PROGRAM_DOG_HPP</span></div>
 </div><!-- fragment --></div><!-- contents -->
-<div class="ttc" id="aclass_dog_html_a3f9c20612c25d8e204e1a9422d93f0df"><div class="ttname"><a href="class_dog.html#a3f9c20612c25d8e204e1a9422d93f0df">Dog::Dog</a></div><div class="ttdeci">Dog(std::string name, double temp, double breath, double heart, bool is_large)</div><div class="ttdef"><b>Definition:</b> Dog.hpp:17</div></div>
-<div class="ttc" id="aclass_dog_html_a13987aaf33a987c8a4cb82d166ec1e55"><div class="ttname"><a href="class_dog.html#a13987aaf33a987c8a4cb82d166ec1e55">Dog::m_is_large</a></div><div class="ttdeci">bool m_is_large</div><div class="ttdef"><b>Definition:</b> Dog.hpp:20</div></div>
+<div class="ttc" id="aclass_dog_html_a3f9c20612c25d8e204e1a9422d93f0df"><div class="ttname"><a href="class_dog.html#a3f9c20612c25d8e204e1a9422d93f0df">Dog::Dog</a></div><div class="ttdeci">Dog(std::string name, double temp, double breath, double heart, bool is_large)</div><div class="ttdef"><b>Definition:</b> Dog.hpp:18</div></div>
+<div class="ttc" id="aclass_dog_html_a13987aaf33a987c8a4cb82d166ec1e55"><div class="ttname"><a href="class_dog.html#a13987aaf33a987c8a4cb82d166ec1e55">Dog::m_is_large</a></div><div class="ttdeci">bool m_is_large</div><div class="ttdef"><b>Definition:</b> Dog.hpp:21</div></div>
 <div class="ttc" id="a_animal_8hpp_html"><div class="ttname"><a href="_animal_8hpp.html">Animal.hpp</a></div></div>
-<div class="ttc" id="aclass_dog_html"><div class="ttname"><a href="class_dog.html">Dog</a></div><div class="ttdef"><b>Definition:</b> Dog.hpp:15</div></div>
+<div class="ttc" id="aclass_dog_html"><div class="ttname"><a href="class_dog.html">Dog</a></div><div class="ttdef"><b>Definition:</b> Dog.hpp:16</div></div>
 <div class="ttc" id="a_dog_8hpp_html"><div class="ttname"><a href="_dog_8hpp.html">Dog.hpp</a></div></div>
-<div class="ttc" id="aclass_animal_html_a140b778af73bd89905e9ce8f1815e3eb"><div class="ttname"><a href="class_animal.html#a140b778af73bd89905e9ce8f1815e3eb">Animal::m_temp</a></div><div class="ttdeci">double m_temp</div><div class="ttdef"><b>Definition:</b> Animal.hpp:45</div></div>
+<div class="ttc" id="aclass_animal_html_a140b778af73bd89905e9ce8f1815e3eb"><div class="ttname"><a href="class_animal.html#a140b778af73bd89905e9ce8f1815e3eb">Animal::m_temp</a></div><div class="ttdeci">double m_temp</div><div class="ttdef"><b>Definition:</b> Animal.hpp:49</div></div>
 <div class="ttc" id="aclass_dog_html_aa3815447a847132ff334493139605b30"><div class="ttname"><a href="class_dog.html#aa3815447a847132ff334493139605b30">Dog::check_health</a></div><div class="ttdeci">bool check_health() override</div><div class="ttdoc">check_health of the dog</div><div class="ttdef"><b>Definition:</b> Dog.cpp:18</div></div>
-<div class="ttc" id="aclass_animal_html_a28d2ec73013445baf2e876e9dff126ab"><div class="ttname"><a href="class_animal.html#a28d2ec73013445baf2e876e9dff126ab">Animal::m_breath</a></div><div class="ttdeci">double m_breath</div><div class="ttdef"><b>Definition:</b> Animal.hpp:46</div></div>
-<div class="ttc" id="aclass_animal_html"><div class="ttname"><a href="class_animal.html">Animal</a></div><div class="ttdef"><b>Definition:</b> Animal.hpp:14</div></div>
-<div class="ttc" id="aclass_animal_html_ac934f62ae7d19f4b519dbb7f29620f1a"><div class="ttname"><a href="class_animal.html#ac934f62ae7d19f4b519dbb7f29620f1a">Animal::m_heart</a></div><div class="ttdeci">double m_heart</div><div class="ttdef"><b>Definition:</b> Animal.hpp:47</div></div>
+<div class="ttc" id="aclass_animal_html_a28d2ec73013445baf2e876e9dff126ab"><div class="ttname"><a href="class_animal.html#a28d2ec73013445baf2e876e9dff126ab">Animal::m_breath</a></div><div class="ttdeci">double m_breath</div><div class="ttdef"><b>Definition:</b> Animal.hpp:50</div></div>
+<div class="ttc" id="aclass_animal_html"><div class="ttname"><a href="class_animal.html">Animal</a></div><div class="ttdef"><b>Definition:</b> Animal.hpp:16</div></div>
+<div class="ttc" id="aclass_animal_html_ac934f62ae7d19f4b519dbb7f29620f1a"><div class="ttname"><a href="class_animal.html#ac934f62ae7d19f4b519dbb7f29620f1a">Animal::m_heart</a></div><div class="ttdeci">double m_heart</div><div class="ttdef"><b>Definition:</b> Animal.hpp:51</div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

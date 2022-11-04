@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/edens/CLionProjects/Vet-program
+CMAKE_SOURCE_DIR = "/mnt/c/Users/Eden/CLionProjects/Vet program"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/edens/CLionProjects/Vet-program/cmake-build-debug
+CMAKE_BINARY_DIR = "/mnt/c/Users/Eden/CLionProjects/Vet program/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/edens/CLionProjects/Vet-program/cmake-build-debug/CMakeFiles /mnt/c/Users/edens/CLionProjects/Vet-program/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/Eden/CLionProjects/Vet program/cmake-build-debug/CMakeFiles" "/mnt/c/Users/Eden/CLionProjects/Vet program/cmake-build-debug//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/edens/CLionProjects/Vet-program/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/Eden/CLionProjects/Vet program/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Vet_program
+# Target rules for targets named Vet-program
 
 # Build rule for target.
-Vet_program: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Vet_program
-.PHONY : Vet_program
+Vet-program: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Vet-program
+.PHONY : Vet-program
 
 # fast build rule for target.
-Vet_program/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet_program.dir/build.make CMakeFiles/Vet_program.dir/build
-.PHONY : Vet_program/fast
+Vet-program/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet-program.dir/build.make CMakeFiles/Vet-program.dir/build
+.PHONY : Vet-program/fast
 
 Animal.o: Animal.cpp.o
 .PHONY : Animal.o
 
 # target to build an object file
 Animal.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet_program.dir/build.make CMakeFiles/Vet_program.dir/Animal.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet-program.dir/build.make CMakeFiles/Vet-program.dir/Animal.cpp.o
 .PHONY : Animal.cpp.o
 
 Animal.i: Animal.cpp.i
@@ -142,7 +142,7 @@ Animal.i: Animal.cpp.i
 
 # target to preprocess a source file
 Animal.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet_program.dir/build.make CMakeFiles/Vet_program.dir/Animal.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet-program.dir/build.make CMakeFiles/Vet-program.dir/Animal.cpp.i
 .PHONY : Animal.cpp.i
 
 Animal.s: Animal.cpp.s
@@ -150,7 +150,7 @@ Animal.s: Animal.cpp.s
 
 # target to generate assembly for a file
 Animal.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet_program.dir/build.make CMakeFiles/Vet_program.dir/Animal.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet-program.dir/build.make CMakeFiles/Vet-program.dir/Animal.cpp.s
 .PHONY : Animal.cpp.s
 
 Cat.o: Cat.cpp.o
@@ -158,7 +158,7 @@ Cat.o: Cat.cpp.o
 
 # target to build an object file
 Cat.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet_program.dir/build.make CMakeFiles/Vet_program.dir/Cat.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet-program.dir/build.make CMakeFiles/Vet-program.dir/Cat.cpp.o
 .PHONY : Cat.cpp.o
 
 Cat.i: Cat.cpp.i
@@ -166,7 +166,7 @@ Cat.i: Cat.cpp.i
 
 # target to preprocess a source file
 Cat.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet_program.dir/build.make CMakeFiles/Vet_program.dir/Cat.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet-program.dir/build.make CMakeFiles/Vet-program.dir/Cat.cpp.i
 .PHONY : Cat.cpp.i
 
 Cat.s: Cat.cpp.s
@@ -174,7 +174,7 @@ Cat.s: Cat.cpp.s
 
 # target to generate assembly for a file
 Cat.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet_program.dir/build.make CMakeFiles/Vet_program.dir/Cat.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet-program.dir/build.make CMakeFiles/Vet-program.dir/Cat.cpp.s
 .PHONY : Cat.cpp.s
 
 Cow.o: Cow.cpp.o
@@ -182,7 +182,7 @@ Cow.o: Cow.cpp.o
 
 # target to build an object file
 Cow.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet_program.dir/build.make CMakeFiles/Vet_program.dir/Cow.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet-program.dir/build.make CMakeFiles/Vet-program.dir/Cow.cpp.o
 .PHONY : Cow.cpp.o
 
 Cow.i: Cow.cpp.i
@@ -190,7 +190,7 @@ Cow.i: Cow.cpp.i
 
 # target to preprocess a source file
 Cow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet_program.dir/build.make CMakeFiles/Vet_program.dir/Cow.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet-program.dir/build.make CMakeFiles/Vet-program.dir/Cow.cpp.i
 .PHONY : Cow.cpp.i
 
 Cow.s: Cow.cpp.s
@@ -198,7 +198,7 @@ Cow.s: Cow.cpp.s
 
 # target to generate assembly for a file
 Cow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet_program.dir/build.make CMakeFiles/Vet_program.dir/Cow.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet-program.dir/build.make CMakeFiles/Vet-program.dir/Cow.cpp.s
 .PHONY : Cow.cpp.s
 
 Dog.o: Dog.cpp.o
@@ -206,7 +206,7 @@ Dog.o: Dog.cpp.o
 
 # target to build an object file
 Dog.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet_program.dir/build.make CMakeFiles/Vet_program.dir/Dog.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet-program.dir/build.make CMakeFiles/Vet-program.dir/Dog.cpp.o
 .PHONY : Dog.cpp.o
 
 Dog.i: Dog.cpp.i
@@ -214,7 +214,7 @@ Dog.i: Dog.cpp.i
 
 # target to preprocess a source file
 Dog.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet_program.dir/build.make CMakeFiles/Vet_program.dir/Dog.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet-program.dir/build.make CMakeFiles/Vet-program.dir/Dog.cpp.i
 .PHONY : Dog.cpp.i
 
 Dog.s: Dog.cpp.s
@@ -222,7 +222,7 @@ Dog.s: Dog.cpp.s
 
 # target to generate assembly for a file
 Dog.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet_program.dir/build.make CMakeFiles/Vet_program.dir/Dog.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet-program.dir/build.make CMakeFiles/Vet-program.dir/Dog.cpp.s
 .PHONY : Dog.cpp.s
 
 Tests.o: Tests.cpp.o
@@ -230,7 +230,7 @@ Tests.o: Tests.cpp.o
 
 # target to build an object file
 Tests.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet_program.dir/build.make CMakeFiles/Vet_program.dir/Tests.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet-program.dir/build.make CMakeFiles/Vet-program.dir/Tests.cpp.o
 .PHONY : Tests.cpp.o
 
 Tests.i: Tests.cpp.i
@@ -238,7 +238,7 @@ Tests.i: Tests.cpp.i
 
 # target to preprocess a source file
 Tests.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet_program.dir/build.make CMakeFiles/Vet_program.dir/Tests.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet-program.dir/build.make CMakeFiles/Vet-program.dir/Tests.cpp.i
 .PHONY : Tests.cpp.i
 
 Tests.s: Tests.cpp.s
@@ -246,7 +246,7 @@ Tests.s: Tests.cpp.s
 
 # target to generate assembly for a file
 Tests.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet_program.dir/build.make CMakeFiles/Vet_program.dir/Tests.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet-program.dir/build.make CMakeFiles/Vet-program.dir/Tests.cpp.s
 .PHONY : Tests.cpp.s
 
 Vet.o: Vet.cpp.o
@@ -254,7 +254,7 @@ Vet.o: Vet.cpp.o
 
 # target to build an object file
 Vet.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet_program.dir/build.make CMakeFiles/Vet_program.dir/Vet.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet-program.dir/build.make CMakeFiles/Vet-program.dir/Vet.cpp.o
 .PHONY : Vet.cpp.o
 
 Vet.i: Vet.cpp.i
@@ -262,7 +262,7 @@ Vet.i: Vet.cpp.i
 
 # target to preprocess a source file
 Vet.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet_program.dir/build.make CMakeFiles/Vet_program.dir/Vet.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet-program.dir/build.make CMakeFiles/Vet-program.dir/Vet.cpp.i
 .PHONY : Vet.cpp.i
 
 Vet.s: Vet.cpp.s
@@ -270,7 +270,7 @@ Vet.s: Vet.cpp.s
 
 # target to generate assembly for a file
 Vet.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet_program.dir/build.make CMakeFiles/Vet_program.dir/Vet.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet-program.dir/build.make CMakeFiles/Vet-program.dir/Vet.cpp.s
 .PHONY : Vet.cpp.s
 
 main.o: main.cpp.o
@@ -278,7 +278,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet_program.dir/build.make CMakeFiles/Vet_program.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet-program.dir/build.make CMakeFiles/Vet-program.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -286,7 +286,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet_program.dir/build.make CMakeFiles/Vet_program.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet-program.dir/build.make CMakeFiles/Vet-program.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -294,7 +294,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet_program.dir/build.make CMakeFiles/Vet_program.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Vet-program.dir/build.make CMakeFiles/Vet-program.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -305,7 +305,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Vet_program"
+	@echo "... Vet-program"
 	@echo "... Animal.o"
 	@echo "... Animal.i"
 	@echo "... Animal.s"
