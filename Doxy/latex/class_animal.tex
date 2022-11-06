@@ -22,9 +22,7 @@ Inheritance diagram for Animal\+:
 virtual \mbox{\hyperlink{class_animal_aa4619e5ee3b21b485f716fe985c4537f}{$\sim$\+Animal}} ()=default
 \begin{DoxyCompactList}\small\item\em virtual dtor inorder to destroy objects that inherits from animals \end{DoxyCompactList}\item 
 virtual bool \mbox{\hyperlink{class_animal_ab0988d4c5d644a37aa17fa09589e597f}{check\+\_\+health}} ()=0
-\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_animal_ab0988d4c5d644a37aa17fa09589e597f}{check\+\_\+health()}} Pure Virtual Function \end{DoxyCompactList}\item 
-void \mbox{\hyperlink{class_animal_ac0b5bae7c16c6c31d2a7d8b6429188c6}{set\+\_\+name}} (std\+::string name)
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_animal_ab0988d4c5d644a37aa17fa09589e597f}{check\+\_\+health()}} Pure Virtual Function each class (dog,cat,cow) inherits from class animal and overrides this function for his own features \end{DoxyCompactList}\end{DoxyCompactItemize}
 \doxysubsection*{Public Attributes}
 \begin{DoxyCompactItemize}
 \item 
@@ -83,20 +81,21 @@ virtual dtor inorder to destroy objects that inherits from animals
 
 
 
-\mbox{\hyperlink{class_animal_ab0988d4c5d644a37aa17fa09589e597f}{check\+\_\+health()}} Pure Virtual Function 
+\mbox{\hyperlink{class_animal_ab0988d4c5d644a37aa17fa09589e597f}{check\+\_\+health()}} Pure Virtual Function each class (dog,cat,cow) inherits from class animal and overrides this function for his own features 
 
 \begin{DoxyReturn}{Returns}
-bool 
+bool if the animal is sick or not 
 \end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{_dog_8hpp}{Dog.\+hpp}} 
+
+\mbox{\hyperlink{_cat_8hpp}{Cat.\+hpp}} 
+
+\mbox{\hyperlink{_cow_8hpp}{Cow.\+hpp}} 
+\end{DoxySeeAlso}
 
 
 Implemented in \mbox{\hyperlink{class_cow_ae43c56e8d6360cb8bc041af19836848b}{Cow}}, \mbox{\hyperlink{class_dog_aa3815447a847132ff334493139605b30}{Dog}}, and \mbox{\hyperlink{class_cat_a08ea53c48aa4a3dbca5bb81362ef1449}{Cat}}.
-
-\mbox{\Hypertarget{class_animal_ac0b5bae7c16c6c31d2a7d8b6429188c6}\label{class_animal_ac0b5bae7c16c6c31d2a7d8b6429188c6}} 
-\index{Animal@{Animal}!set\_name@{set\_name}}
-\index{set\_name@{set\_name}!Animal@{Animal}}
-\doxysubsubsection{\texorpdfstring{set\_name()}{set\_name()}}
-{\footnotesize\ttfamily void Animal\+::set\+\_\+name (\begin{DoxyParamCaption}\item[{std\+::string}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 
 

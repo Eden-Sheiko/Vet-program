@@ -52,11 +52,15 @@ public:
 
     /**
      * \brief check_health() Pure Virtual Function
-     * @return bool
+     * each class (dog,cat,cow) inherits from class animal
+     * and overrides this function for his own features
+     * @return bool if the animal is sick or not
+     * @see Dog.hpp
+     * @see Cat.hpp
+     * @see Cow.hpp
      */
     virtual bool check_health() = 0;
 
-    void set_name(std::string name) { m_name = std::move(name); }
 };
 
 
